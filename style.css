@@ -1,3 +1,7 @@
+body, :is(.first-block, .second-block) *{
+    margin: 0;
+}
+
 .first-block {
     display: flex;
     flex-flow: column nowrap;
@@ -16,6 +20,7 @@
 
 body {
     color: #fff;
+    background: url('waves-of-blue.jpg');
 }
 
 .cite {
@@ -42,7 +47,13 @@ body {
     text-align: center;
 }
 
-a[href*="#"] {font-weight: 500;color: var(--color);padding: .8em;border: 1px solid #fff;position: relative;}
+a[href*="#"] {
+    font-weight: 500;
+    color: var(--color);
+    padding: .8em;
+    border: 1px solid #fff;
+    position: relative;
+}
 
 a[href*="#"]:hover::before {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
@@ -75,10 +86,6 @@ a[href*="#"]::after {
 
 a[href*="#"]:hover::before, a[href*="#"]:hover::after {
     font-size: 105%;
-}
-
-:is(.first-block, .second-block) * {
-    margin: 0;
 }
 
 .third-block {
