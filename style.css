@@ -20,7 +20,7 @@ body, :is(.first-block, .second-block) *{
 
 body {
     color: #fff;
-    background: url('waves-of-blue.jpg');
+    background: url('waves-of-blue.jpg') top center / contain no-repeat;
 }
 
 .cite {
