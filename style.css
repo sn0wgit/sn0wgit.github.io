@@ -1,0 +1,120 @@
+.first-block {
+    display: flex;
+    flex-flow: column nowrap;
+    width: calc(100% - 4em);
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+    gap: 0.8em;
+    backdrop-filter: brightness(0.5);
+}
+
+.name {
+    width: fit-content;
+    text-align: center;
+}
+
+body {
+    color: #fff;
+}
+
+.cite {
+    font-style: italic;
+    text-align: center;
+}
+
+.second-block {
+    display: grid;
+    grid-template-columns: calc(100% / 3) calc(100% / 3) calc(100% / 3);
+    grid-template-rows: auto auto;
+    width: 100%;
+}
+
+.subblock {
+    background: var(--color);
+    display: flex;
+    flex-flow: column nowrap;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+    gap: 0.8em;
+    text-align: center;
+}
+
+a[href*="#"] {font-weight: 500;color: var(--color);padding: .8em;border: 1px solid #fff;position: relative;}
+
+a[href*="#"]:hover::before {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+a[href*="#"]::before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: 'Skatīties';
+    background: #fff;
+    position: absolute;
+    inset: -1px;
+    clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
+    z-index: 1;
+    transition: 0.2s ease-in-out clip-path, 0.2s ease-in-out font-size;
+}
+
+a[href*="#"]::after {
+    display: flex;
+    content: 'Skatīties';
+    position: absolute;
+    inset: 0;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    z-index: 0;
+    transition: 0.2s ease-in-out font-size;
+}
+
+a[href*="#"]:hover::before, a[href*="#"]:hover::after {
+    font-size: 105%;
+}
+
+:is(.first-block, .second-block) * {
+    margin: 0;
+}
+
+.third-block {
+    background: #fff;
+    width: 800px;
+    padding: 3em calc((100% - 800px) / 2);
+    color: #000;
+}
+
+.third-block > div {
+    position: relative;
+}
+
+.third-block h2 {
+    color: var(--color);
+}
+
+*:target::before {
+    content: '';
+    animation: 4s ease 0s 1 normal none running target;
+    inset: -0.75em;
+    position: absolute;
+}
+
+@keyframes target {
+    0%{background: #0000001a;}
+    75%{background: #0000001a;}
+    100%{background: #00000000;}
+}
+
+.fourth-block {
+    background: #000;
+    width: 800px;
+    padding: 3em calc((100% - 800px) / 2);
+}
+
+.fourth-block a {
+    color: #00abff;
+}
