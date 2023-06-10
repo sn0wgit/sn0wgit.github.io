@@ -4,6 +4,7 @@ body {
     font-family: 'Noto Sans';
     color: #fff;
     background: url('waves-of-blue.jpg') top center / 100% 300px no-repeat;
+    overflow-x: hidden;
 }
 
 body, :is(.first-block, .second-block) *{
@@ -126,8 +127,21 @@ a[href*="#"]:hover::before, a[href*="#"]:hover::after {
     width: 800px;
     max-width: calc(100% - 6em);
     padding: 3em;
+    margin: 0 auto;
+    position: relative;
 }
 
 .fourth-block a {
     color: #00abff;
+}
+
+.fourth-block::before {
+    content: '';
+    left: calc((100vw - 896px) / -2);
+    right: calc((100vw - 896px) / -2);
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    background: #000;
+    z-index: -1;
 }
