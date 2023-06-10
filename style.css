@@ -124,7 +124,8 @@ a[href*="#"]:hover::before, a[href*="#"]:hover::after {
 .fourth-block {
     background: #000;
     width: 800px;
-    padding: 3em calc((100% - 800px) / 2);
+    max-width: calc(100% - 6em);
+    padding: 3em;
 }
 
 .fourth-block a {
