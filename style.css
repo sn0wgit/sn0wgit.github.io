@@ -157,3 +157,27 @@ a[href*="#"]:hover::before, a[href*="#"]:hover::after {
         max-width: calc(100% - 4em);
     }
 }
+
+@media print{
+    body, .fourth-block{
+        background: #fff;
+    }
+    .first-block{
+        backdrop-filter: unset;
+        align-items: flex-start;
+        width: 800px;
+        margin: auto;
+    }
+    *{
+        color: #000 !important;
+    }
+    .second-block, .fourth-block::before{
+        display: none;
+    }
+    .third-block, .fourth-block{
+        padding-top: 0 !important;
+    }
+    .third-block, .first-block{
+        padding-bottom: 0 !important;
+    }
+}
