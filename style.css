@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
-    font-family: 'Noto Sans';
+    font-family: 'Open Sans';
     color: #fff;
     background: url('waves-of-blue.jpg') top center / 100% 300px no-repeat;
     overflow-x: hidden;
@@ -34,7 +34,7 @@ body, :is(.first-block, .second-block) *{
 
 .second-block {
     display: grid;
-    grid-template-columns: calc(100% / 3) calc(100% / 3) calc(100% / 3);
+    grid-template-columns: repeat(3, calc(100% / 3));
     grid-template-rows: auto auto;
     width: 100%;
 }
@@ -144,4 +144,15 @@ a[href*="#"]:hover::before, a[href*="#"]:hover::after {
     position: absolute;
     background: #000;
     z-index: -1;
+}
+
+@media screen and (max-width: 520px){
+    .second-block {
+        grid-template-rows: repeat(3, auto);
+        grid-template-columns: unset;
+    }
+    .third-block, .fourth-block{
+        padding: 2em;
+        max-width: calc(100% - 4em);
+    }
 }
