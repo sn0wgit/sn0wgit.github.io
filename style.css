@@ -114,6 +114,7 @@ a[href*="#"]:hover::before, a[href*="#"]:hover::after {
     animation: 4s ease 0s 1 normal none running target;
     inset: -0.75em;
     position: absolute;
+    pointer-events: none;
 }
 
 @keyframes target {
