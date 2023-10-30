@@ -149,6 +149,13 @@ body, :is(.first-block, .second-block) *{
     z-index: -1;
 }
 
+@media screen and (max-width: 1110px){
+    .second-block {
+        grid-template-rows: repeat(2, 50%);
+        grid-template-columns: repeat(2, 50%);
+    }
+}
+
 @media screen and (max-width: 520px){
     .second-block {
         grid-template-rows: repeat(3, auto);
