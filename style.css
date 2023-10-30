@@ -34,7 +34,7 @@ body, :is(.first-block, .second-block) *{
 
 .second-block {
     display: grid;
-    grid-template-columns: repeat(3, calc(100% / 3));
+    grid-template-columns: repeat(4, calc(100% / 4));
     grid-template-rows: auto auto;
     width: 100%;
 }
@@ -51,7 +51,7 @@ body, :is(.first-block, .second-block) *{
     text-align: center;
 }
 
-a[href*="#"] {
+.second-block a {
     font-weight: 500;
     color: var(--color);
     padding: .8em;
@@ -60,11 +60,11 @@ a[href*="#"] {
     outline: none !important;
 }
 
-a[href*="#"]:is(:hover, :focus-visible)::before {
+.second-block a:is(:hover, :focus-visible)::before {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
-a[href*="#"]::before {
+.second-block a::before {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,7 +77,7 @@ a[href*="#"]::before {
     transition: 0.2s ease-in-out clip-path, 0.2s ease-in-out font-size;
 }
 
-a[href*="#"]::after {
+.second-block a::after {
     display: flex;
     content: 'Skatīties';
     position: absolute;
@@ -89,7 +89,7 @@ a[href*="#"]::after {
     transition: 0.2s ease-in-out font-size;
 }
 
-a[href*="#"]:is(:hover, :focus-visible)::before, a[href*="#"]:is(:hover, :focus-visible)::after {
+.second-block a:is(:hover, :focus-visible)::before, .second-block a:is(:hover, :focus-visible)::after {
     font-size: 105%;
 }
 
