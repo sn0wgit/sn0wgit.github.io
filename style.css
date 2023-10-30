@@ -110,6 +110,16 @@ body, :is(.first-block, .second-block) *{
     color: var(--color);
 }
 
+.third-block h2::selection {
+    background: var(--color);
+    color: #fff;
+}
+
+.fourth-block h2::selection{
+    background: #fff;
+    color: #000;
+}
+
 *:target::before {
     content: '';
     animation: 4s ease 0s 1 normal none running target;
