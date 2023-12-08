@@ -115,6 +115,11 @@ body, :is(.first-block, .second-block) *{
     color: #fff;
 }
 
+.third-block :not(h2)::selection {
+    background: #0003;
+    color: #000;
+}
+
 .fourth-block h2::selection{
     background: #fff;
     color: #000;
