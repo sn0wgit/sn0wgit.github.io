@@ -4,7 +4,6 @@ body {
     background: #fff;
     font-family: 'Open Sans';
     color: #fff;
-    background: url('waves-of-blue.jpg') top center / 100% 300px no-repeat;
     overflow-x: hidden;
 }
 
@@ -13,6 +12,7 @@ body, :is(.intro, .navigation) *{
 }
 
 .intro {
+    background: url('riga.png') center 25% / 700px no-repeat, url('rigablur.png') center 40% / cover no-repeat, radial-gradient(50% 100% at 50% 100%, #e9823f, #d1975a);
     display: flex;
     flex-flow: column nowrap;
     width: calc(100% - 4em);
