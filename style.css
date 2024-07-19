@@ -20,17 +20,18 @@ body, :is(.intro, .navigation) *{
     justify-content: center;
     padding: 2em;
     gap: 0.8em;
-    backdrop-filter: brightness(0.5);
 }
 
 .name {
     width: fit-content;
     text-align: center;
+    text-wrap: balance;
 }
 
 .cite {
     font-style: italic;
     text-align: center;
+    text-wrap: balance;
 }
 
 .navigation {
