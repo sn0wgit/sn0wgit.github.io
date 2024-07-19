@@ -7,7 +7,7 @@ Vidējā izglītība:
 * Rīgas 64. vidusskola (2021─2024)
   * Padziļinātais kursu komplekts: Inženieris (Fizika, Matemātika, Programmēšana)
 * Eksāmenu rezultāti
-  * Matemātika (OL, augstākais līmenis) ─ 68%
+  * Matemātika (OL, optimālais līmenis) ─ 68%
   * Matemātika (AL, augstākais līmenis) ─ 65%
   * Programmēšana (AL, augstākais līmenis) ─ 67%
 
