@@ -5,9 +5,6 @@ body {
     font-family: 'Open Sans';
     color: #fff;
     overflow-x: hidden;
-}
-
-body, :is(.intro, .navigation) *{
     margin: 0;
 }
 
@@ -20,6 +17,7 @@ body, :is(.intro, .navigation) *{
     justify-content: center;
     padding: 2em;
     gap: 0.8em;
+    margin: 0;
 }
 
 .name {
@@ -194,25 +192,42 @@ body, :is(.intro, .navigation) *{
 }
 
 @media print{
-    body, .contacts{
+    :not(a){
         background: #fff;
-    }
-    .intro{
-        backdrop-filter: unset;
-        align-items: flex-start;
-        width: 800px;
-        margin: auto;
-    }
-    *{
         color: #000 !important;
     }
-    .navigation, .contacts::before{
+    a {
+        color: #00e !important;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    .intro{
+        gap: 0;
+        align-items: flex-start;
+        padding-inline: 0;
+        padding-bottom: 0 !important;
+        margin: 0;
+        width: 100%;
+    }
+    .cite{
+        opacity: 0.5;
+    }
+    .navigation{
         display: none;
     }
-    .main, .contacts{
-        padding-top: 0 !important;
+    .main{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        max-width: unset;
     }
-    .main, .intro{
-        padding-bottom: 0 !important;
+    .contacts{
+        padding-inline: 0;
+        padding-top: 0 !important;
+        margin: 0;
+        width: 100%;
+    }
+    .contacts::before{
+        display: none;
     }
 }
