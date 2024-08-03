@@ -45,6 +45,14 @@ main :not(h2)::selection {
     color: #fff;
 }
 
+mark {
+    background: #0003;
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 5px;
+    user-select: none;
+}
+
 footer h2::selection{
     background: #fff;
     color: #000;
@@ -87,6 +95,11 @@ footer::before {
         background: #fff;
         color: #000;
     }
+    a:-webkit-any-link {
+        color: -webkit-link;
+        cursor: pointer;
+        text-decoration: underline;
+    }
     header{
         align-items: flex-start;
         padding-inline: 0;
@@ -103,6 +116,14 @@ footer::before {
     main > div{
         position: initial;
     }
+    :is(h2, h3) a{
+        color: #000 !important;
+    }
+    mark{
+        padding-inline: 0;
+        border-radius: 0;
+        font-style: italic;
+    }
     footer{
         padding-inline: 0;
         padding-top: 0 !important;
@@ -111,10 +132,5 @@ footer::before {
     }
     footer::before{
         display: none;
-    }
-    a:-webkit-any-link {
-        color: -webkit-link;
-        cursor: pointer;
-        text-decoration: underline;
     }
 }
