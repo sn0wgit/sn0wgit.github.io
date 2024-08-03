@@ -8,7 +8,7 @@ body {
     margin: 0;
 }
 
-.intro {
+header {
     background: url('riga.png') center 25% / 700px no-repeat, url('rigablur.png') center 40% / cover no-repeat, radial-gradient(50% 100% at 50% 100%, #e9823f, #d1975a);
     display: flex;
     flex-flow: column nowrap;
@@ -120,7 +120,7 @@ body {
     color: #000;
 }
 
-.contacts h2::selection{
+footer h2::selection{
     background: #fff;
     color: #000;
 }
@@ -148,7 +148,7 @@ body {
     text-decoration-color: #00ff;
 }
 
-.contacts {
+footer {
     background: #000;
     width: 800px;
     max-width: calc(100% - 6em);
@@ -157,12 +157,12 @@ body {
     position: relative;
 }
 
-.contacts a {
+footer a {
     color: #00abff;
     outline: none !important;
 }
 
-.contacts::before {
+footer::before {
     content: '';
     left: calc((100vw - 896px) / -2);
     right: calc((100vw - 896px) / -2);
@@ -185,7 +185,7 @@ body {
         grid-template-rows: repeat(3, auto);
         grid-template-columns: unset;
     }
-    .main, .contacts{
+    .main, footer{
         padding: 2em;
         max-width: calc(100% - 4em);
     }
@@ -201,7 +201,7 @@ body {
         cursor: pointer;
         text-decoration: underline;
     }
-    .intro{
+    header{
         gap: 0;
         align-items: flex-start;
         padding-inline: 0;
@@ -221,13 +221,13 @@ body {
         width: 100%;
         max-width: unset;
     }
-    .contacts{
+    footer{
         padding-inline: 0;
         padding-top: 0 !important;
         margin: 0;
         width: 100%;
     }
-    .contacts::before{
+    footer::before{
         display: none;
     }
 }
