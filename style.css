@@ -52,6 +52,10 @@ header {
     text-align: center;
 }
 
+.navigation h2{
+    margin: 0;
+}
+
 .navigation a {
     font-weight: 500;
     color: var(--color);
