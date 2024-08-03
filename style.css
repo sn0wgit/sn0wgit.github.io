@@ -17,19 +17,20 @@ header {
     justify-content: center;
     padding: 2em;
     gap: 0.8em;
-    margin: 0;
 }
 
 .name {
     width: fit-content;
     text-align: center;
     text-wrap: balance;
+    margin: 0;
 }
 
 .cite {
     font-style: italic;
     text-align: center;
     text-wrap: balance;
+    margin: 0;
 }
 
 .navigation {
