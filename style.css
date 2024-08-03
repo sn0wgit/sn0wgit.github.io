@@ -215,7 +215,15 @@ footer::before {
         width: 100%;
     }
     .cite{
-        opacity: 0.5;
+        font-size: 0;
+    }
+    .cite::before{
+        content: 'Curriculum Vitae';
+        font-size: 16px;
+        font-style: normal;
+    }
+    abbr[title] {
+        text-decoration: unset;
     }
     .navigation{
         display: none;
