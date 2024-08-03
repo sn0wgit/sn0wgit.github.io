@@ -29,7 +29,7 @@ Pamatizglītība:
 
 Darba pieredzes nav.
 
-Prasmju pieredze ─ māku veikli izstrādāt tīmekļa lapas (arī pēc maketa), meklēt kļūdas un tās labot, izcili zinu HTML, CSS/SCSS, māku programmēt ar JS, C++ un Python, zinu, kas ir OOP. Interesē matemātika kā zinātne. Protu rakstīt ne tikai kodu, bet arī apzinātus tekstus. Ir pamata pieredze mākslīga intelekta jeb _AI_ lietošanā.
+Prasmju pieredze ─ māku veikli izstrādāt tīmekļa lapas, meklēt kļūdas un tās labot, izcili zinu HTML un CSS/SCSS, diezgan labi zinu arī JS, māku programmēt ar Python un C++, zinu, kas ir OOP, mazliet protu strādāt ar Angular, bet gribu atgriezties pie React mācīšanas. Interesē matemātika kā zinātne. Protu rakstīt ne tikai kodu, bet arī apzinātus tekstus. Ir pamata pieredze mākslīga intelekta jeb _AI_ lietošanā.
 
 ## Kontakti
 
