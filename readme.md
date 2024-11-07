@@ -35,4 +35,4 @@ Prasmju pieredze ─ māku veikli izstrādāt tīmekļa lapas, meklēt kļūdas 
 
 E-pasts: [yaroslav.vyazmitin@gmail.com](mailto:yaroslavvyazmitin@gmail.com)
 
-LinkedIn: [https://linkedin.com/in/iaroslav-viazmitin-baa784320/](https://linkedin.com/in/iaroslav-viazmitin-baa784320/)
+LinkedIn: [https://linkedin.com/in/yaroslav-vyazmitin-baa784320/](https://linkedin.com/in/yaroslav-vyazmitin-baa784320/)
