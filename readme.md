@@ -4,6 +4,11 @@ Apzināties zaudējumu nozīmē būt ceļā līdz uzvarai.
 
 ## Izglītība
 
+Augstākā izglītība:
+
+- Rīgas Tehniskā universitāte
+  - [Viedās datortehnoloģijas (DBG0)](https://stud.rtu.lv/rtu/spr_export/prog_pdf_lv.226) (2024─pašlaik)
+
 Vidējā izglītība:
 
 - Rīgas 64. vidusskola (2021─2024)
@@ -16,8 +21,11 @@ Vidējā izglītība:
 Pamatizglītība:
 
 - Rīgas 64. vidusskola (2018─2021)
+  - 7.─9. A klase
 - Rīgas 60. vidusskola (2015─2018)
+  - 4.─6. B klase
 - [Brjanskas 4. vidusskola](https://maps.app.goo.gl/CsmrvsSwkqrVYupUA) (2012─2015)
+  - 1.─3. A klase
 
 ## Valodu zināšanas
 
@@ -33,6 +41,6 @@ Prasmju pieredze ─ māku veikli izstrādāt tīmekļa lapas, meklēt kļūdas 
 
 ## Kontakti
 
-E-pasts: [yaroslav.vyazmitin@gmail.com](mailto:yaroslavvyazmitin@gmail.com)
+Epasts: [yaroslav.vyazmitin@gmail.com](mailto:yaroslavvyazmitin@gmail.com)
 
 LinkedIn: [https://linkedin.com/in/yaroslav-vyazmitin-baa784320/](https://linkedin.com/in/yaroslav-vyazmitin-baa784320/)

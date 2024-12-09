@@ -145,19 +145,22 @@ footer h2::selection{
     100%{background: #00000000;}
 }
 
-.main li a[href*="maps."] {
-    cursor: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAiJQTFRFAAAAaGj/aGj/lJT/qKj/urr/p6f/j4//aGj/aGj/hob/zMz/9PT/////xsb/fX3/aGj/amr/xcX/+/v/+vr/vLz/amr/cHD/zs7/v7//b2//aGj/zMz/z+L6b6fxTZLtSZDthrP24ez9ycn/aGj/aGj/vr7/g7TzHXXoGnPoJHjrQYX0RYf0lrv5qqr/aGj/g4P/8aaiWmazInbrP4TzQoX0vdT7+fn/fn7/aGj/zs7//vb2601A6EQ3eF2XJHnph7L3k7n5RIb0TKOg+v37ubn/aGj/amr/9vb/+L656kM16kc36tnXvdX7PpDANKhT0ezY8fH/amr/mZn/9aWe9pkhR5XHNKdZvuPHjY3/rKz/97Su84Mc+7wF//XZ1OrjN6ddxufPlpb/vLz//OXj8HEm+7sE+7wE+8Qj/uOU9d+NTrBd6vbtoKD/vb3/+8Y8+rwEhrE0bcCDoaH/r6////be+74Nfq82OapY5vTqmpr/n5///uWdnbMrpdizk5P/b2//2M9oOalVecaN9fX/bGz/aGj/zMz/+fz6VbZvWrh09/z4tbX/aGj/f3//zOnU1u3c+Pj/enr/u7v/XLl1p6f/aWn/wMD/teDBsd29vb3/aWn/cHD/ysr/u7v/cHD/aGj/qKj/np7/aGj/aGj/gID/s7P/6+v/6ur/ra3/eXn/aGj/aGj/aGj/iYn/k5P/n5//np7/k5P/hYX/aGj/aGj/OkMFFwAAALZ0Uk5TACSXyvb/8sUZLbL7///5px91+v//91xe//5fdP7////////+VjH5//////////UhwP////////+cKf3/////////////+huV/////////////2fI//////+r6//////////h+v////////////f7//////fp///////dxP///6SW/////2gg/P/////5FLf///+S9v/wXP////9BX/7+XFj39EIekPn///WAFhhssPL//+upaxGsgxTmAAABaUlEQVR4nFWSZVPDQBRFl0LRBoq7a3ELxV2DLO5uwd1dihQo7u7u8v9INhtK75d3z8nMzuzbAMBFTaCuIRRqagm0wf/o6OqJCBSRvoFY6Q2NjIm/mJia8d7cglCJpRXnrW0Q2trZOzg6oerswnpXNwTuHhKJp5e3DwJfP+aDPzo/IFAiCQomSTKEJWkoAGHhbIuIjIqOiY2LJ8mERJaTkkFKKlvSKCo9gyAyySyYzXJOLshDh+ZTVAE7C4tgMRIloBTNMqq8opIgqqohrEGiFtShWd/QSDc1t7RCCNuQaAcd3KU6aZru6mZ8D8e9oI8r/QM0Pcj4oWGOR8Ao3sMYPc54OIFxEkxJcZ2eYfwsBtkcmF/AfVEO4dIyhhUFAKsmGNYgXMd1Y5PZlXiLX/e2nG87Cna9u3sY9w9wOTziHuT4hFDJ6Rn/hOcXUqWWXV4pH/365vaO0/cPj08q/8nzy+vb+8fn1/cPFr8qbVuYaxfWyAAAAABJRU5ErkJggg=="), pointer;
+section.main a {
     text-decoration-color: #00e0;
     color: #00e;
 }
 
-.main li a[href*="maps."]:hover {
+section.main a:hover {
     text-decoration-color: #00ef;
 }
 
-.main li a[href*="maps."]::selection {
+section.main a::selection {
     background: #aaaaf9;
     color: #fff;
+}
+
+section.main a[href*="maps."] {
+    cursor: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAiJQTFRFAAAAaGj/aGj/lJT/qKj/urr/p6f/j4//aGj/aGj/hob/zMz/9PT/////xsb/fX3/aGj/amr/xcX/+/v/+vr/vLz/amr/cHD/zs7/v7//b2//aGj/zMz/z+L6b6fxTZLtSZDthrP24ez9ycn/aGj/aGj/vr7/g7TzHXXoGnPoJHjrQYX0RYf0lrv5qqr/aGj/g4P/8aaiWmazInbrP4TzQoX0vdT7+fn/fn7/aGj/zs7//vb2601A6EQ3eF2XJHnph7L3k7n5RIb0TKOg+v37ubn/aGj/amr/9vb/+L656kM16kc36tnXvdX7PpDANKhT0ezY8fH/amr/mZn/9aWe9pkhR5XHNKdZvuPHjY3/rKz/97Su84Mc+7wF//XZ1OrjN6ddxufPlpb/vLz//OXj8HEm+7sE+7wE+8Qj/uOU9d+NTrBd6vbtoKD/vb3/+8Y8+rwEhrE0bcCDoaH/r6////be+74Nfq82OapY5vTqmpr/n5///uWdnbMrpdizk5P/b2//2M9oOalVecaN9fX/bGz/aGj/zMz/+fz6VbZvWrh09/z4tbX/aGj/f3//zOnU1u3c+Pj/enr/u7v/XLl1p6f/aWn/wMD/teDBsd29vb3/aWn/cHD/ysr/u7v/cHD/aGj/qKj/np7/aGj/aGj/gID/s7P/6+v/6ur/ra3/eXn/aGj/aGj/aGj/iYn/k5P/n5//np7/k5P/hYX/aGj/aGj/OkMFFwAAALZ0Uk5TACSXyvb/8sUZLbL7///5px91+v//91xe//5fdP7////////+VjH5//////////UhwP////////+cKf3/////////////+huV/////////////2fI//////+r6//////////h+v////////////f7//////fp///////dxP///6SW/////2gg/P/////5FLf///+S9v/wXP////9BX/7+XFj39EIekPn///WAFhhssPL//+upaxGsgxTmAAABaUlEQVR4nFWSZVPDQBRFl0LRBoq7a3ELxV2DLO5uwd1dihQo7u7u8v9INhtK75d3z8nMzuzbAMBFTaCuIRRqagm0wf/o6OqJCBSRvoFY6Q2NjIm/mJia8d7cglCJpRXnrW0Q2trZOzg6oerswnpXNwTuHhKJp5e3DwJfP+aDPzo/IFAiCQomSTKEJWkoAGHhbIuIjIqOiY2LJ8mERJaTkkFKKlvSKCo9gyAyySyYzXJOLshDh+ZTVAE7C4tgMRIloBTNMqq8opIgqqohrEGiFtShWd/QSDc1t7RCCNuQaAcd3KU6aZru6mZ8D8e9oI8r/QM0Pcj4oWGOR8Ao3sMYPc54OIFxEkxJcZ2eYfwsBtkcmF/AfVEO4dIyhhUFAKsmGNYgXMd1Y5PZlXiLX/e2nG87Cna9u3sY9w9wOTziHuT4hFDJ6Rn/hOcXUqWWXV4pH/365vaO0/cPj08q/8nzy+vb+8fn1/cPFr8qbVuYaxfWyAAAAABJRU5ErkJggg=="), pointer;
 }
 
 footer {
@@ -213,7 +216,7 @@ footer::before {
         cursor: pointer;
         text-decoration: underline;
     }
-    .main li a[href*="maps."]{
+    section.main a[href*="maps."]{
         color: #000 !important;
     }
     header{
@@ -244,12 +247,19 @@ footer::before {
         max-width: unset;
     }
     footer{
-        padding-inline: 0;
-        padding-top: 0 !important;
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 0.5em;
+        height: fit-content;
+        padding: 0 !important;
         margin: 0;
         width: 100%;
     }
     footer::before{
         display: none;
+    }
+    footer *{
+        margin: 0;
+        height: fit-content;
     }
 }
