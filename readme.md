@@ -4,21 +4,20 @@ Apzināties zaudējumu nozīmē būt ceļā līdz uzvarai.
 
 ## Izglītība
 
-Augstākā izglītība:
+**Augstākā izglītība**
 
 - Rīgas Tehniskā universitāte
   - [Viedās datortehnoloģijas (DBG0)](https://stud.rtu.lv/rtu/spr_export/prog_pdf_lv.226) (2024─pašlaik)
 
-Vidējā izglītība:
+**Vidējā izglītība**
 
 - Rīgas 64. vidusskola (2021─2024)
   - Padziļinātais kursu komplekts: Inženieris (Fizika, Matemātika, Programmēšana)
-- Eksāmenu rezultāti
-  - Matemātika OL (optimālais līmenis) ─ 68%
-  - Matemātika AL (augstākais līmenis) ─ 65%
-  - Programmēšana AL (augstākais līmenis) ─ 67%
+  - Eksāmenu rezultāti:
+    - Matemātika AL (augstākais līmenis) ─ 65%
+    - Programmēšana AL (augstākais līmenis) ─ 67%
 
-Pamatizglītība:
+**Pamatizglītība**
 
 - Rīgas 64. vidusskola (2018─2021)
   - 7.─9. A klase

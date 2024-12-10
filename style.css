@@ -121,6 +121,10 @@ header {
     color: #fff;
 }
 
+#education p {
+    font-weight: bold;
+}
+
 .main :not(h2)::selection {
     background: #0003;
     color: #000;
